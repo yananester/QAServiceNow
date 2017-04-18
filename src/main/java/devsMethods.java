@@ -1,7 +1,7 @@
 /**
  * Created by yananester on 4/17/17.
  */
-public class PartOne {
+public class devsMethods {
 
     public static String[] generateStrings(int w) {
         if (w == 3) {

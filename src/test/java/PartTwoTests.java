@@ -38,14 +38,14 @@ public class PartTwoTests extends PartOneTests {
     @Test
     public void positiveTest() {
         int w = 4;
-        String[] generatedStrings = PartOne.generatePalindromeStrings(w);
+        String[] generatedStrings = devsMethods.generatePalindromeStrings(w);
         Assert.assertTrue(checkGenerateStringsFunction(generatedStrings, w));
     }
 
     @Test
     public void negativeTest() {
         int w = 5;
-        String[] generatedStrings = PartOne.generatePalindromeStrings(w);
+        String[] generatedStrings = devsMethods.generatePalindromeStrings(w);
         Assert.assertFalse(checkGenerateStringsFunction(generatedStrings, w));
     }
 

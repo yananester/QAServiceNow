@@ -55,14 +55,14 @@ public class PartOneTests {
     @Test
     public void positiveTest() {
         int w = 3;
-        String[] generatedStrings = PartOne.generateStrings(w);
+        String[] generatedStrings = devsMethods.generateStrings(w);
         Assert.assertTrue(checkGenerateStringsFunction(generatedStrings, w));
     }
 
     @Test
     public void negativeTest() {
         int w = 4;
-        String[] generatedStrings = PartOne.generateStrings(w);
+        String[] generatedStrings = devsMethods.generateStrings(w);
         Assert.assertFalse(checkGenerateStringsFunction(generatedStrings, w));
     }
 }
